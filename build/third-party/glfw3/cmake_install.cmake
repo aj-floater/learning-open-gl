@@ -1,8 +1,8 @@
-# Install script for directory: /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3
+# Install script for directory: C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/cross_platform_test")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,17 +34,17 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "C:/MinGW/bin/objdump.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES
-    "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/glfw3Config.cmake"
-    "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/glfw3ConfigVersion.cmake"
+    "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/glfw3Config.cmake"
+    "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/glfw3ConfigVersion.cmake"
     )
 endif()
 
@@ -52,7 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets.cmake"
-         "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
+         "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -61,21 +61,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/glfw3.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/glfw3.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/cmake_install.cmake")
-  include("/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples/cmake_install.cmake")
-  include("/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests/cmake_install.cmake")
+  include("C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/cmake_install.cmake")
+  include("C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples/cmake_install.cmake")
+  include("C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests/cmake_install.cmake")
 
 endif()
 

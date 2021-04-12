@@ -66,17 +66,17 @@ GL/gl.h
 GL/glext.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c
 getopt.h
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.h
 stddef.h
 -
 string.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.h
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -86,7 +86,7 @@ string.h
 glad/gl.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/clipboard.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/clipboard.c
 glad/gl.h
 -
 GLFW/glfw3.h
@@ -96,5 +96,5 @@ stdio.h
 stdlib.h
 -
 getopt.h
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/getopt.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/getopt.h
 

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/reopen.dir/__/deps/glad_gl.c.o"
-  "CMakeFiles/reopen.dir/reopen.c.o"
-  "reopen"
+  "CMakeFiles/reopen.dir/__/deps/glad_gl.c.obj"
+  "CMakeFiles/reopen.dir/reopen.c.obj"
+  "libreopen.dll.a"
+  "reopen.exe"
+  "reopen.exe.manifest"
   "reopen.pdb"
 )
 

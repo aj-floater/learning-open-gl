@@ -80,17 +80,17 @@ GL/gl.h
 GL/glext.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c
 getopt.h
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.h
 stddef.h
 -
 string.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.h
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -100,9 +100,9 @@ string.h
 glad/gl.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/tinycthread.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/tinycthread.c
 tinycthread.h
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/tinycthread.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/tinycthread.h
 stdlib.h
 -
 signal.h
@@ -120,7 +120,7 @@ process.h
 sys/timeb.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/tinycthread.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/tinycthread.h
 time.h
 -
 sys/time.h
@@ -130,7 +130,7 @@ pthread.h
 windows.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/particles.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/examples/particles.c
 stdlib.h
 -
 stdio.h

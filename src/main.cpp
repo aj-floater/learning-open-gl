@@ -89,9 +89,6 @@ int main()
 
     ResourceManager::ImportTexture("/resources/textures/container.jpg", "container");
 
-    ResourceManager::ImportAudio("/resources/audio/bell.wav", "bell");
-    ResourceManager::PlayAudio("bell");
-
     // render loop
     // -----------
     while (!glfwWindowShouldClose(window))

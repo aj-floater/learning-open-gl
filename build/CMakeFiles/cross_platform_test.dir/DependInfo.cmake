@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/archiejames/Desktop/cross_platform_test/src/get_path.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/cross_platform_test.dir/src/get_path.cpp.o"
-  "/Users/archiejames/Desktop/cross_platform_test/src/main.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/cross_platform_test.dir/src/main.cpp.o"
-  "/Users/archiejames/Desktop/cross_platform_test/src/resource_manager.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/cross_platform_test.dir/src/resource_manager.cpp.o"
+  "C:/Users/arjam/Gits/cross_platform_test/src/get_path.cpp" "C:/Users/arjam/Gits/cross_platform_test/build/CMakeFiles/cross_platform_test.dir/src/get_path.cpp.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/src/main.cpp" "C:/Users/arjam/Gits/cross_platform_test/build/CMakeFiles/cross_platform_test.dir/src/main.cpp.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/src/resource_manager.cpp" "C:/Users/arjam/Gits/cross_platform_test/build/CMakeFiles/cross_platform_test.dir/src/resource_manager.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
@@ -19,9 +19,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/GLAD.dir/DependInfo.cmake"
-  "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
+  "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/arjam/Gits/cross_platform_test/build/CMakeFiles/GLAD.dir/DependInfo.cmake"
+  "C:/Users/arjam/Gits/cross_platform_test/build/CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

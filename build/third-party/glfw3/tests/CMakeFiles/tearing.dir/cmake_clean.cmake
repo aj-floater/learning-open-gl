@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tearing.dir/__/deps/glad_gl.c.o"
-  "CMakeFiles/tearing.dir/tearing.c.o"
-  "tearing.app/Contents/MacOS/tearing"
+  "CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj"
+  "CMakeFiles/tearing.dir/tearing.c.obj"
+  "libtearing.dll.a"
+  "tearing.exe"
+  "tearing.exe.manifest"
   "tearing.pdb"
 )
 

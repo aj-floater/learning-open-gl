@@ -25,9 +25,7 @@ class ResourceManager{
 public:
     static void ImportTexture(const char *path, std::string save_name);
     static void ImportShader(const char *vertex_path, const char *fragment_path, std::string save_name);
-    static void ImportAudio(std::string path, std::string save_name);
 
     static unsigned int Texture(std::string name);
     static unsigned int Shader(std::string name);
-    static void PlayAudio(std::string name);
 };

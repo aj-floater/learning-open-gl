@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/opacity.dir/__/deps/glad_gl.c.o"
-  "CMakeFiles/opacity.dir/opacity.c.o"
-  "opacity.app/Contents/MacOS/opacity"
+  "CMakeFiles/opacity.dir/__/deps/glad_gl.c.obj"
+  "CMakeFiles/opacity.dir/opacity.c.obj"
+  "libopacity.dll.a"
+  "opacity.exe"
+  "opacity.exe.manifest"
   "opacity.pdb"
 )
 

@@ -14,13 +14,8 @@ if(APPLE)
     # find opengl
     find_library(OpenGL_LIBRARY OpenGL)
     set(LIBS ${LIBS} ${OpenGL_LIBRARY})
-    # add dynamic libraries
-    file(GLOB DYNAMIC_LIBRARIES ${CMAKE_SOURCE_DIR}/lib/*.dylib)
 elseif(WIN32)
-    # find opengl
-    set(LIBS ${LIBS} glm opengl32)
-    # add dynamic libraries
-    file(GLOB DYNAMIC_LIBRARIES ${CMAKE_SOURCE_DIR}/lib/*.dll)
+    set(LIBS ${LIBS} opengl32)
 endif(APPLE)
 
 # adds static libraries
@@ -41,4 +36,4 @@ set(LIBS ${LIBS} GLAD STB_IMAGE)
 
 add_executable(${PROJECT_NAME} ${SOURCE})
 
-target_link_libraries(${PROJECT_NAME} PUBLIC ${LIBS} ${DYNAMIC_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} PUBLIC ${LIBS} ${DYNAMIC_LIBRARIES} -lshlwapi)

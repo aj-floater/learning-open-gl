@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gamma.dir/__/deps/glad_gl.c.o"
-  "CMakeFiles/gamma.dir/gamma.c.o"
-  "gamma.app/Contents/MacOS/gamma"
+  "CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj"
+  "CMakeFiles/gamma.dir/gamma.c.obj"
+  "gamma.exe"
+  "gamma.exe.manifest"
   "gamma.pdb"
+  "libgamma.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

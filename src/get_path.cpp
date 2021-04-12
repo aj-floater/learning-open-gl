@@ -1,9 +1,11 @@
 #if defined(_WIN32)
     #include <windows.h>
-    #include <Shlwapi.h>
+    #include <shlwapi.h>
     #include <io.h> 
+    #include <string>
 
     #define access _access_s
+    #define _SHLWAPI_H
 #endif
 
 #ifdef __APPLE__
@@ -45,14 +47,20 @@ std::string getExecutableDir() {
     std::string directory = std::string(exePath);
     delete[] exePath;
     return directory;
+    // return "C:\\Users\\arjam\\Gits\\cross_platform_test\\build";
 }
 
 std::string mergePaths(std::string pathA, std::string pathB) {
-  char combined[MAX_PATH];
-  PathCombineA(combined, pathA.c_str(), pathB.c_str());
-  std::string mergedPath(combined);
-  return mergedPath;
+//   char combined[MAX_PATH];
+//   PathCombineA(combined, pathA.c_str(), pathB.c_str());
+//   std::string mergedPath(combined);
+//   return mergedPath;
+// // return "";
 }
+
+// bool checkIfFileExists (const std::string& filePath) {
+//    return access( filePath.c_str(), 0 ) == 0;
+// }
 
 #endif
 
@@ -104,10 +112,5 @@ std::string mergePaths(std::string pathA, std::string pathB) {
         return pathA+"/"+pathB;
     }
 #endif
-
-
-bool checkIfFileExists (const std::string& filePath) {
-   return access( filePath.c_str(), 0 ) == 0;
-}
 
 }

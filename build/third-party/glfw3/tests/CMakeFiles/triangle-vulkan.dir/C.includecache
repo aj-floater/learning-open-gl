@@ -62,7 +62,7 @@ GL/gl.h
 GL/glext.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_vulkan.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_vulkan.c
 stdio.h
 -
 stdlib.h
@@ -72,7 +72,7 @@ string.h
 glad/vulkan.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/triangle-vulkan.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/triangle-vulkan.c
 stdio.h
 -
 stdlib.h

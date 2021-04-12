@@ -78,17 +78,17 @@ GL/gl.h
 GL/glext.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c
 getopt.h
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.h
 stddef.h
 -
 string.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.h
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -98,7 +98,7 @@ string.h
 glad/gl.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_vulkan.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_vulkan.c
 stdio.h
 -
 stdlib.h
@@ -108,7 +108,7 @@ string.h
 glad/vulkan.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/glfwinfo.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/glfwinfo.c
 glad/gl.h
 -
 glad/vulkan.h
@@ -122,5 +122,5 @@ stdlib.h
 string.h
 -
 getopt.h
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/getopt.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/getopt.h
 

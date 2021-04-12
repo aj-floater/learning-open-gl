@@ -1,457 +1,457 @@
 [
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/GLAD.dir/src/third-party/glad.c.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/glad.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/src/third-party/glad.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/GLAD.dir/includes_C.rsp -g -o CMakeFiles\\GLAD.dir\\src\\third-party\\glad.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\src\\third-party\\glad.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/src/third-party/glad.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/Desktop/cross_platform_test/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/STB_IMAGE.dir/src/third-party/stb_image.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/stb_image.cpp",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/src/third-party/stb_image.cpp"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/STB_IMAGE.dir/includes_CXX.rsp -g -o CMakeFiles\\STB_IMAGE.dir\\src\\third-party\\stb_image.cpp.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\src\\third-party\\stb_image.cpp",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/src/third-party/stb_image.cpp"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/Desktop/cross_platform_test/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cross_platform_test.dir/src/get_path.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/get_path.cpp",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/src/get_path.cpp"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/cross_platform_test.dir/includes_CXX.rsp -g -o CMakeFiles\\cross_platform_test.dir\\src\\get_path.cpp.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\src\\get_path.cpp",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/src/get_path.cpp"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/Desktop/cross_platform_test/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cross_platform_test.dir/src/main.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/main.cpp",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/src/main.cpp"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/cross_platform_test.dir/includes_CXX.rsp -g -o CMakeFiles\\cross_platform_test.dir\\src\\main.cpp.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\src\\main.cpp",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/src/main.cpp"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/Desktop/cross_platform_test/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cross_platform_test.dir/src/resource_manager.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/resource_manager.cpp",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/src/resource_manager.cpp"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/cross_platform_test.dir/includes_CXX.rsp -g -o CMakeFiles\\cross_platform_test.dir\\src\\resource_manager.cpp.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\src\\resource_manager.cpp",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/src/resource_manager.cpp"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/context.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/context.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/context.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\context.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/context.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/init.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/init.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/init.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\init.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/init.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/input.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/input.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/input.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\input.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/input.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/monitor.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/monitor.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\monitor.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/monitor.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/vulkan.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/vulkan.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\vulkan.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/vulkan.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/window.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/window.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/window.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\window.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/window.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_init.m",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_init.m"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\win32_init.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_init.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_joystick.m",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_joystick.m"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\win32_joystick.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_joystick.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_monitor.m",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_monitor.m"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\win32_monitor.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_monitor.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_window.m",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_window.m"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\win32_time.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_time.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_time.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_time.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\win32_thread.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_thread.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/posix_thread.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/posix_thread.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\win32_window.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_window.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/nsgl_context.m",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/nsgl_context.m"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\wgl_context.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/wgl_context.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/egl_context.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/egl_context.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\egl_context.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/egl_context.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
-  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/osmesa_context.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/osmesa_context.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\src\\osmesa_context.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/osmesa_context.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/wave.dir/wave.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/wave.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/wave.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/boing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\boing.dir\\boing.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\examples\\boing.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/examples/boing.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/wave.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/boing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\boing.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/simple.dir/simple.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/simple.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/simple.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/simple.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\simple.dir\\simple.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\examples\\simple.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/examples/simple.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/simple.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/simple.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\simple.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/sharing.dir/sharing.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/sharing.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/sharing.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/gears.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gears.dir\\gears.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\examples\\gears.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/examples/gears.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/gears.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gears.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/particles.dir/particles.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/particles.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/particles.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\particles.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\examples\\particles.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/examples/particles.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/tinycthread.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/tinycthread.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\__\\deps\\tinycthread.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\tinycthread.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/tinycthread.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/particles.dir/__/deps/getopt.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\getopt.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/particles.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/heightmap.dir/heightmap.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/heightmap.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/heightmap.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/heightmap.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\heightmap.dir\\heightmap.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\examples\\heightmap.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/examples/heightmap.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/heightmap.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\heightmap.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/splitview.dir/splitview.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/splitview.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/splitview.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/splitview.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\splitview.dir\\splitview.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\examples\\splitview.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/examples/splitview.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/splitview.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/splitview.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\splitview.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/offscreen.dir/offscreen.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/offscreen.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/offscreen.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/offscreen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\offscreen.dir\\offscreen.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\examples\\offscreen.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/examples/offscreen.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/offscreen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\offscreen.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/gears.dir/gears.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/gears.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/gears.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/sharing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\sharing.dir\\sharing.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\examples\\sharing.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/examples/sharing.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/gears.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/sharing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\sharing.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/boing.dir/boing.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/boing.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/examples/boing.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/wave.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\wave.dir\\wave.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\examples\\wave.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/examples/wave.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/examples",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/boing.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/examples",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/wave.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\wave.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/triangle-vulkan.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/triangle-vulkan.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/clipboard.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\clipboard.dir\\clipboard.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\clipboard.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/clipboard.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_vulkan.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_vulkan.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/clipboard.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\clipboard.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\getopt.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/clipboard.dir/clipboard.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/clipboard.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/clipboard.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/clipboard.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\clipboard.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/getopt.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/events.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\events.dir\\events.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\events.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/events.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/events.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\events.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\getopt.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/title.dir/title.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/title.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/title.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/events.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\events.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/title.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/msaa.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\msaa.dir\\msaa.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\msaa.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/msaa.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/timeout.dir/timeout.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/timeout.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/timeout.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/msaa.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\msaa.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\getopt.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/timeout.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/msaa.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\msaa.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/threads.dir/threads.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/threads.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/threads.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\glfwinfo.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\glfwinfo.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/glfwinfo.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/threads.dir/__/deps/tinycthread.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/tinycthread.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/tinycthread.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\getopt.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/threads.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/opacity.dir/opacity.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/opacity.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/opacity.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\__\\deps\\glad_vulkan.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_vulkan.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_vulkan.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/iconify.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\iconify.dir\\iconify.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\iconify.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/iconify.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/gamma.dir/gamma.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/gamma.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/gamma.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/iconify.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\iconify.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\getopt.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/gamma.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/iconify.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\iconify.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/tearing.dir/tearing.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/tearing.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/tearing.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/monitors.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\monitors.dir\\monitors.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\monitors.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/monitors.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/tearing.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/monitors.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\monitors.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\getopt.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/iconify.dir/iconify.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/iconify.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/iconify.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/monitors.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\monitors.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/getopt.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/reopen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\reopen.dir\\reopen.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\reopen.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/reopen.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/reopen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\reopen.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/joysticks.dir/joysticks.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/joysticks.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/joysticks.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/cursor.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\cursor.dir\\cursor.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\cursor.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/cursor.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/cursor.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\cursor.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/windows.dir/windows.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/windows.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/windows.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/empty.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\empty.dir\\empty.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\empty.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/empty.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/windows.dir/__/deps/getopt.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/empty.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\empty.dir\\__\\deps\\tinycthread.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\tinycthread.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/tinycthread.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/windows.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/empty.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\empty.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/inputlag.dir/inputlag.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/inputlag.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/inputlag.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/gamma.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gamma.dir\\gamma.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\gamma.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/gamma.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/getopt.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/gamma.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gamma.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/icon.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\icon.dir\\icon.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\icon.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/icon.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/empty.dir/empty.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/empty.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/empty.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/icon.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\icon.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/empty.dir/__/deps/tinycthread.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/tinycthread.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/tinycthread.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/inputlag.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\inputlag.dir\\inputlag.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\inputlag.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/inputlag.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/empty.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/inputlag.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\inputlag.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\getopt.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/reopen.dir/reopen.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/reopen.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/reopen.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/inputlag.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\inputlag.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/joysticks.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\joysticks.dir\\joysticks.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\joysticks.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/joysticks.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/msaa.dir/msaa.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/msaa.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/msaa.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/joysticks.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\joysticks.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/getopt.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/threads.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\threads.dir\\threads.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\threads.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/threads.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/threads.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\threads.dir\\__\\deps\\tinycthread.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\tinycthread.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/tinycthread.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/cursor.dir/cursor.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/cursor.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/cursor.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/threads.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\threads.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/opacity.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\opacity.dir\\opacity.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\opacity.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/opacity.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/glfwinfo.dir/glfwinfo.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/glfwinfo.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/glfwinfo.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/opacity.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\opacity.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/tearing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\tearing.dir\\tearing.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\tearing.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/tearing.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/tearing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\tearing.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_vulkan.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_vulkan.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/timeout.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\timeout.dir\\timeout.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\timeout.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/timeout.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/monitors.dir/monitors.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/monitors.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/monitors.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/timeout.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\timeout.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/getopt.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/title.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\title.dir\\title.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\title.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/title.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/title.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\title.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/events.dir/events.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/events.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/events.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/triangle-vulkan.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\triangle-vulkan.dir\\triangle-vulkan.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\triangle-vulkan.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/triangle-vulkan.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/events.dir/__/deps/getopt.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/triangle-vulkan.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\triangle-vulkan.dir\\__\\deps\\glad_vulkan.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_vulkan.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_vulkan.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/events.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/windows.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\windows.dir\\windows.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\tests\\windows.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/windows.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/icon.dir/icon.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/icon.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/icon.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/windows.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\windows.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\getopt.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c"
 },
 {
-  "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests",
-  "command": "/usr/bin/clang  -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu99 -o CMakeFiles/icon.dir/__/deps/glad_gl.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c",
-  "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
+  "directory": "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/windows.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\windows.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\arjam\\Gits\\cross_platform_test\\third-party\\glfw3\\deps\\glad_gl.c",
+  "file": "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c"
 }
 ]

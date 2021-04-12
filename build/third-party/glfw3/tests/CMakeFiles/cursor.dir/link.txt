@@ -1,1 +1,3 @@
-/usr/bin/clang -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cursor.dir/cursor.c.o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -o cursor  ../src/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation 
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cursor.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cursor.dir/objects.a @CMakeFiles\cursor.dir\objects1.rsp
+C:\MinGW\bin\mingw32-gcc.exe -g -Wl,--whole-archive CMakeFiles\cursor.dir/objects.a -Wl,--no-whole-archive -o cursor.exe -Wl,--out-implib,libcursor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cursor.dir\linklibs.rsp

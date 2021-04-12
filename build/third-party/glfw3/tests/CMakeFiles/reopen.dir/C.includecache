@@ -68,7 +68,7 @@ GL/gl.h
 GL/glext.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -78,7 +78,7 @@ string.h
 glad/gl.h
 -
 
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/reopen.c
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/reopen.c
 glad/gl.h
 -
 GLFW/glfw3.h
@@ -90,5 +90,5 @@ stdio.h
 stdlib.h
 -
 linmath.h
-/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/linmath.h
+C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/linmath.h
 

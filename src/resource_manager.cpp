@@ -5,9 +5,6 @@ std::string ResourceManager::executable_dir = MyPaths::getExecutableDir();
 std::map<std::string, unsigned int> ResourceManager::texture_data;
 std::map<std::string, unsigned int> ResourceManager::shader_data;
 
-irrklang::ISoundEngine* ResourceManager::engine = irrklang::createIrrKlangDevice();  
-std::map<std::string, std::string> ResourceManager::sounds;
-
 void ResourceManager::ImportTexture(const char *path, std::string save_name){
     // Import and load a texture
     unsigned int texture;
@@ -39,15 +36,9 @@ void ResourceManager::ImportShader(const char *vertex_path, const char *fragment
     shader_data[save_name] = Shader::CreateShader(  std::string(executable_dir + vertex_path).c_str(),
                                                     std::string(executable_dir + fragment_path).c_str()    );
 }
-void ResourceManager::ImportAudio(std::string path, std::string save_name){
-    sounds[save_name] = executable_dir + path;
-}
 unsigned int ResourceManager::Texture(std::string name){
     return texture_data[name];
 }
 unsigned int ResourceManager::Shader(std::string name){
     return shader_data[name];
-}
-void ResourceManager::PlayAudio(std::string name){
-    engine->play2D(sounds[name].c_str(), false);
 }

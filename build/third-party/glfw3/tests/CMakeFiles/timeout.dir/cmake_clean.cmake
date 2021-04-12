@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/timeout.dir/__/deps/glad_gl.c.o"
-  "CMakeFiles/timeout.dir/timeout.c.o"
-  "timeout.app/Contents/MacOS/timeout"
+  "CMakeFiles/timeout.dir/__/deps/glad_gl.c.obj"
+  "CMakeFiles/timeout.dir/timeout.c.obj"
+  "libtimeout.dll.a"
+  "timeout.exe"
+  "timeout.exe.manifest"
   "timeout.pdb"
 )
 

@@ -4,27 +4,30 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_init.m" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_joystick.m" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_monitor.m" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_time.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/cocoa_window.m" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/context.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/context.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/egl_context.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/egl_context.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/init.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/init.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/input.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/input.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/monitor.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/monitor.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/nsgl_context.m" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/osmesa_context.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/posix_thread.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/posix_thread.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/vulkan.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/vulkan.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/window.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/window.c.o"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/context.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/context.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/egl_context.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/init.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/init.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/input.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/input.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/monitor.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/monitor.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/osmesa_context.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/vulkan.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/wgl_context.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_init.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_joystick.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_monitor.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_thread.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_time.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/win32_window.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/src/window.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/window.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
+  "UNICODE"
+  "WINVER=0x0501"
   "_GLFW_USE_CONFIG_H"
+  "_UNICODE"
   )
 
 # The include file search paths:
@@ -32,6 +35,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../third-party/glfw3/include"
   "../third-party/glfw3/src"
   "third-party/glfw3/src"
+  "../third-party/glfw3/deps/mingw"
   )
 
 # Targets to which this target links.

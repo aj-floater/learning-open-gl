@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/archiejames/Desktop/cross_platform_test/src/third-party/stb_image.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/STB_IMAGE.dir/src/third-party/stb_image.cpp.o"
+  "C:/Users/arjam/Gits/cross_platform_test/src/third-party/stb_image.cpp" "C:/Users/arjam/Gits/cross_platform_test/build/CMakeFiles/STB_IMAGE.dir/src/third-party/stb_image.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

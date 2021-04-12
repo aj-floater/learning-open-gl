@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/getopt.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/deps/glad_gl.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o"
-  "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/tests/inputlag.c" "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/tests/CMakeFiles/inputlag.dir/inputlag.c.o"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/getopt.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/deps/glad_gl.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.obj"
+  "C:/Users/arjam/Gits/cross_platform_test/third-party/glfw3/tests/inputlag.c" "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/tests/CMakeFiles/inputlag.dir/inputlag.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
@@ -18,7 +18,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/arjam/Gits/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
