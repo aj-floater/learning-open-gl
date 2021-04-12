@@ -1,0 +1,44 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(cross_platform_test)
+
+# adds subdirectories for third party libraries
+add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/glfw3)
+add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/glm)
+
+# adds include directory
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+set(LIBS glfw glm)
+
+if(APPLE)
+    # find opengl
+    find_library(OpenGL_LIBRARY OpenGL)
+    set(LIBS ${LIBS} ${OpenGL_LIBRARY})
+    # add dynamic libraries
+    file(GLOB DYNAMIC_LIBRARIES ${CMAKE_SOURCE_DIR}/lib/*.dylib)
+elseif(WIN32)
+    # find opengl
+    set(LIBS ${LIBS} glm opengl32)
+    # add dynamic libraries
+    file(GLOB DYNAMIC_LIBRARIES ${CMAKE_SOURCE_DIR}/lib/*.dll)
+endif(APPLE)
+
+# adds static libraries
+add_library(GLAD ${CMAKE_SOURCE_DIR}/src/third-party/glad.c)
+add_library(STB_IMAGE ${CMAKE_SOURCE_DIR}/src/third-party/stb_image.cpp)
+
+# adds source files to SOURCE
+file(GLOB SOURCE
+    "src/*.cpp"
+)
+
+# copy resources directory into build folder
+file(GLOB RESOURCES ${CMAKE_SOURCE_DIR}/resources)
+file(COPY ${RESOURCES} DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+# puts all libraries into one variable
+set(LIBS ${LIBS} GLAD STB_IMAGE)
+
+add_executable(${PROJECT_NAME} ${SOURCE})
+
+target_link_libraries(${PROJECT_NAME} PUBLIC ${LIBS} ${DYNAMIC_LIBRARIES})
