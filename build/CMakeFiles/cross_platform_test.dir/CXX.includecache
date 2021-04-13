@@ -1692,6 +1692,10 @@ detail/setup.hpp
 detail/func_vector_relational.inl
 ../third-party/glm/glm/detail/func_vector_relational.inl
 
+../third-party/openal-soft/include/AL/al.h
+
+../third-party/openal-soft/include/AL/alc.h
+
 /Users/archiejames/Desktop/cross_platform_test/src/main.cpp
 glad/glad.h
 -
@@ -1702,6 +1706,10 @@ glm/glm.hpp
 glm/gtc/matrix_transform.hpp
 -
 glm/gtc/type_ptr.hpp
+-
+AL/al.h
+-
+AL/alc.h
 -
 stb_image.h
 -

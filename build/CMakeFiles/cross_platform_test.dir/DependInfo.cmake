@@ -15,11 +15,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../third-party/glfw3/include"
   "../third-party/glm"
+  "../third-party/openal-soft/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/Users/archiejames/Desktop/cross_platform_test/build/third-party/openal-soft/CMakeFiles/OpenAL.dir/DependInfo.cmake"
   "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/GLAD.dir/DependInfo.cmake"
   "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
   )

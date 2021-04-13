@@ -8,11 +8,13 @@ endif(WIN32)
 # adds subdirectories for third party libraries
 add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/glfw3)
 add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/glm)
+add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/openal-soft)
+
 
 # adds include directory
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-set(LIBS glfw glm)
+set(LIBS glfw glm OpenAL)
 
 if(APPLE)
     # find opengl

@@ -617,6 +617,227 @@ icon/fast:
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/icon.dir/build.make third-party/glfw3/tests/CMakeFiles/icon.dir/build
 .PHONY : icon/fast
 
+#=============================================================================
+# Target rules for targets named alffplay
+
+# Build rule for target.
+alffplay: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alffplay
+.PHONY : alffplay
+
+# fast build rule for target.
+alffplay/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/alffplay.dir/build.make third-party/openal-soft/CMakeFiles/alffplay.dir/build
+.PHONY : alffplay/fast
+
+#=============================================================================
+# Target rules for targets named alstreamcb
+
+# Build rule for target.
+alstreamcb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alstreamcb
+.PHONY : alstreamcb
+
+# fast build rule for target.
+alstreamcb/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/alstreamcb.dir/build.make third-party/openal-soft/CMakeFiles/alstreamcb.dir/build
+.PHONY : alstreamcb/fast
+
+#=============================================================================
+# Target rules for targets named alhrtf
+
+# Build rule for target.
+alhrtf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alhrtf
+.PHONY : alhrtf
+
+# fast build rule for target.
+alhrtf/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/alhrtf.dir/build.make third-party/openal-soft/CMakeFiles/alhrtf.dir/build
+.PHONY : alhrtf/fast
+
+#=============================================================================
+# Target rules for targets named allatency
+
+# Build rule for target.
+allatency: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 allatency
+.PHONY : allatency
+
+# fast build rule for target.
+allatency/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/allatency.dir/build.make third-party/openal-soft/CMakeFiles/allatency.dir/build
+.PHONY : allatency/fast
+
+#=============================================================================
+# Target rules for targets named almultireverb
+
+# Build rule for target.
+almultireverb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 almultireverb
+.PHONY : almultireverb
+
+# fast build rule for target.
+almultireverb/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/almultireverb.dir/build.make third-party/openal-soft/CMakeFiles/almultireverb.dir/build
+.PHONY : almultireverb/fast
+
+#=============================================================================
+# Target rules for targets named OpenAL
+
+# Build rule for target.
+OpenAL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OpenAL
+.PHONY : OpenAL
+
+# fast build rule for target.
+OpenAL/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/OpenAL.dir/build.make third-party/openal-soft/CMakeFiles/OpenAL.dir/build
+.PHONY : OpenAL/fast
+
+#=============================================================================
+# Target rules for targets named alstream
+
+# Build rule for target.
+alstream: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alstream
+.PHONY : alstream
+
+# fast build rule for target.
+alstream/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/alstream.dir/build.make third-party/openal-soft/CMakeFiles/alstream.dir/build
+.PHONY : alstream/fast
+
+#=============================================================================
+# Target rules for targets named common
+
+# Build rule for target.
+common: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common
+.PHONY : common
+
+# fast build rule for target.
+common/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/common.dir/build.make third-party/openal-soft/CMakeFiles/common.dir/build
+.PHONY : common/fast
+
+#=============================================================================
+# Target rules for targets named alplay
+
+# Build rule for target.
+alplay: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alplay
+.PHONY : alplay
+
+# fast build rule for target.
+alplay/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/alplay.dir/build.make third-party/openal-soft/CMakeFiles/alplay.dir/build
+.PHONY : alplay/fast
+
+#=============================================================================
+# Target rules for targets named alrecord
+
+# Build rule for target.
+alrecord: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alrecord
+.PHONY : alrecord
+
+# fast build rule for target.
+alrecord/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/alrecord.dir/build.make third-party/openal-soft/CMakeFiles/alrecord.dir/build
+.PHONY : alrecord/fast
+
+#=============================================================================
+# Target rules for targets named altonegen
+
+# Build rule for target.
+altonegen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 altonegen
+.PHONY : altonegen
+
+# fast build rule for target.
+altonegen/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/altonegen.dir/build.make third-party/openal-soft/CMakeFiles/altonegen.dir/build
+.PHONY : altonegen/fast
+
+#=============================================================================
+# Target rules for targets named alloopback
+
+# Build rule for target.
+alloopback: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alloopback
+.PHONY : alloopback
+
+# fast build rule for target.
+alloopback/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/alloopback.dir/build.make third-party/openal-soft/CMakeFiles/alloopback.dir/build
+.PHONY : alloopback/fast
+
+#=============================================================================
+# Target rules for targets named alconvolve
+
+# Build rule for target.
+alconvolve: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alconvolve
+.PHONY : alconvolve
+
+# fast build rule for target.
+alconvolve/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/alconvolve.dir/build.make third-party/openal-soft/CMakeFiles/alconvolve.dir/build
+.PHONY : alconvolve/fast
+
+#=============================================================================
+# Target rules for targets named alreverb
+
+# Build rule for target.
+alreverb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alreverb
+.PHONY : alreverb
+
+# fast build rule for target.
+alreverb/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/alreverb.dir/build.make third-party/openal-soft/CMakeFiles/alreverb.dir/build
+.PHONY : alreverb/fast
+
+#=============================================================================
+# Target rules for targets named ex-common
+
+# Build rule for target.
+ex-common: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex-common
+.PHONY : ex-common
+
+# fast build rule for target.
+ex-common/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/ex-common.dir/build.make third-party/openal-soft/CMakeFiles/ex-common.dir/build
+.PHONY : ex-common/fast
+
+#=============================================================================
+# Target rules for targets named openal-info
+
+# Build rule for target.
+openal-info: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openal-info
+.PHONY : openal-info
+
+# fast build rule for target.
+openal-info/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/openal-info.dir/build.make third-party/openal-soft/CMakeFiles/openal-info.dir/build
+.PHONY : openal-info/fast
+
+#=============================================================================
+# Target rules for targets named build_version
+
+# Build rule for target.
+build_version: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 build_version
+.PHONY : build_version
+
+# fast build rule for target.
+build_version/fast:
+	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/build_version.dir/build.make third-party/openal-soft/CMakeFiles/build_version.dir/build
+.PHONY : build_version/fast
+
 src/get_path.o: src/get_path.cpp.o
 
 .PHONY : src/get_path.o
@@ -764,15 +985,31 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... build_version"
 	@echo "... uninstall"
 	@echo "... GLAD"
+	@echo "... OpenAL"
 	@echo "... STB_IMAGE"
+	@echo "... alconvolve"
+	@echo "... alffplay"
+	@echo "... alhrtf"
+	@echo "... allatency"
+	@echo "... alloopback"
+	@echo "... almultireverb"
+	@echo "... alplay"
+	@echo "... alrecord"
+	@echo "... alreverb"
+	@echo "... alstream"
+	@echo "... alstreamcb"
+	@echo "... altonegen"
 	@echo "... boing"
 	@echo "... clipboard"
+	@echo "... common"
 	@echo "... cross_platform_test"
 	@echo "... cursor"
 	@echo "... empty"
 	@echo "... events"
+	@echo "... ex-common"
 	@echo "... gamma"
 	@echo "... gears"
 	@echo "... glfw"
@@ -786,6 +1023,7 @@ help:
 	@echo "... msaa"
 	@echo "... offscreen"
 	@echo "... opacity"
+	@echo "... openal-info"
 	@echo "... particles"
 	@echo "... reopen"
 	@echo "... sharing"

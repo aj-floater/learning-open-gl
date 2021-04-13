@@ -129,6 +129,7 @@ cross_platform_test: CMakeFiles/cross_platform_test.dir/src/main.cpp.o
 cross_platform_test: CMakeFiles/cross_platform_test.dir/src/resource_manager.cpp.o
 cross_platform_test: CMakeFiles/cross_platform_test.dir/build.make
 cross_platform_test: third-party/glfw3/src/libglfw3.a
+cross_platform_test: third-party/openal-soft/libopenal.1.21.1.dylib
 cross_platform_test: libGLAD.a
 cross_platform_test: libSTB_IMAGE.a
 cross_platform_test: CMakeFiles/cross_platform_test.dir/link.txt

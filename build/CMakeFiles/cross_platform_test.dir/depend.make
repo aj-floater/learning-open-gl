@@ -234,6 +234,8 @@ CMakeFiles/cross_platform_test.dir/src/main.cpp.o: ../third-party/glm/glm/vec2.h
 CMakeFiles/cross_platform_test.dir/src/main.cpp.o: ../third-party/glm/glm/vec3.hpp
 CMakeFiles/cross_platform_test.dir/src/main.cpp.o: ../third-party/glm/glm/vec4.hpp
 CMakeFiles/cross_platform_test.dir/src/main.cpp.o: ../third-party/glm/glm/vector_relational.hpp
+CMakeFiles/cross_platform_test.dir/src/main.cpp.o: ../third-party/openal-soft/include/AL/al.h
+CMakeFiles/cross_platform_test.dir/src/main.cpp.o: ../third-party/openal-soft/include/AL/alc.h
 CMakeFiles/cross_platform_test.dir/src/main.cpp.o: ../src/main.cpp
 
 CMakeFiles/cross_platform_test.dir/src/resource_manager.cpp.o: ../include/KHR/khrplatform.h
