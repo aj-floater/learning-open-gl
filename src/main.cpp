@@ -111,30 +111,24 @@ int main()
 
         // bind Texture
         glBindTexture(GL_TEXTURE_2D, ResourceManager::Texture("container"));
+        
+        glUseProgram(ResourceManager::Shader("shader"));
 
         // set up transformation
-        glm::mat4 trans = glm::mat4(1.0f);
-        trans = glm::translate(trans, glm::vec3(sin(glfwGetTime()*10)/2, cos(glfwGetTime()*10)/2, 0));
-        trans = glm::rotate(trans, (float)glfwGetTime(), glm::vec3(0, 0, 1));
-        trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
+        glm::mat4 model         = glm::mat4(1.0f); // make sure to initialize matrix to identity matrix first
+        glm::mat4 view          = glm::mat4(1.0f);
+        glm::mat4 projection    = glm::mat4(1.0f);
+        model = glm::rotate(model, glm::radians((float)glfwGetTime()*100), glm::vec3(1.0f, 0.0f, 0.0f));
+        view  = glm::translate(view, glm::vec3(0.0f, 0.0f, -2-sin(glfwGetTime())));
+        projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
         
-        // render container
-        glUseProgram(ResourceManager::Shader("shader"));
-        
-        unsigned int transformLoc = glGetUniformLocation(ResourceManager::Shader("shader"), "transform");
-        glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
-        
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        unsigned int modelLoc = glGetUniformLocation(ResourceManager::Shader("shader"), "model");
+        unsigned int viewLoc = glGetUniformLocation(ResourceManager::Shader("shader"), "view");
+        unsigned int projectionLoc = glGetUniformLocation(ResourceManager::Shader("shader"), "projection");
 
-        glm::mat4 trans2 = glm::mat4(1.0f);
-        trans2 = glm::translate(trans2, glm::vec3(-0.5, 0.5, 0));
-        trans2 = glm::scale(trans2, glm::vec3(sin(glfwGetTime())/2, 0.5, 0.5));
-
-        glUseProgram(ResourceManager::Shader("shader"));
-
-        unsigned int transformLoc2 = glGetUniformLocation(ResourceManager::Shader("shader"), "transform");
-        glUniformMatrix4fv(transformLoc2, 1, GL_FALSE, glm::value_ptr(trans2));
+        glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+        glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+        glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
 
         glBindVertexArray(VAO);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
