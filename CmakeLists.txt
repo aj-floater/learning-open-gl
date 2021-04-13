@@ -25,6 +25,7 @@ endif(APPLE)
 # adds static libraries
 add_library(GLAD ${CMAKE_SOURCE_DIR}/src/third-party/glad.c)
 add_library(STB_IMAGE ${CMAKE_SOURCE_DIR}/src/third-party/stb_image.cpp)
+set(LIBS ${LIBS} GLAD STB_IMAGE)
 
 # adds source files to SOURCE
 file(GLOB SOURCE
@@ -34,9 +35,6 @@ file(GLOB SOURCE
 # copy resources directory into build folder
 file(GLOB RESOURCES ${CMAKE_SOURCE_DIR}/resources)
 file(COPY ${RESOURCES} DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
-
-# puts all libraries into one variable
-set(LIBS ${LIBS} GLAD STB_IMAGE)
 
 add_executable(${PROJECT_NAME} ${SOURCE})
 
