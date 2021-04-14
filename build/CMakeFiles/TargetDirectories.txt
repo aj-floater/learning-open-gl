@@ -1,11 +1,11 @@
 /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/install/local.dir
-/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/install/strip.dir
-/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/install.dir
 /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/list_install_components.dir
 /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/GLAD.dir
 /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/rebuild_cache.dir
 /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/edit_cache.dir
-/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/cross_platform_test.dir
+/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/install/strip.dir
+/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/install.dir
+/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/learnOpenGL.dir
 /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/STB_IMAGE.dir
 /Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/CMakeFiles/install/local.dir
 /Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/CMakeFiles/rebuild_cache.dir

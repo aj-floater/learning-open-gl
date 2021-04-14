@@ -173,7 +173,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/GLAD.dir/DependInfo.cmake"
-  "CMakeFiles/cross_platform_test.dir/DependInfo.cmake"
+  "CMakeFiles/learnOpenGL.dir/DependInfo.cmake"
   "CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
   "third-party/glfw3/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "third-party/glfw3/src/CMakeFiles/glfw.dir/DependInfo.cmake"

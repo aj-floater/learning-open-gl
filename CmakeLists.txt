@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(cross_platform_test)
-
-if(WIN32)
-    set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build-win)
-endif(WIN32)
+project(learnOpenGL)
 
 # adds subdirectories for third party libraries
 add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/glfw3)
@@ -15,6 +11,8 @@ add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/openal-soft)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 set(LIBS glfw glm OpenAL)
+
+
 
 if(APPLE)
     # find opengl

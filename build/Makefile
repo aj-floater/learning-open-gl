@@ -87,30 +87,6 @@ install/local/fast: preinstall/fast
 	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Applications/CMake.app/Contents/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Applications/CMake.app/Contents/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -142,6 +118,30 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CMake.app/Contents/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CMake.app/Contents/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -189,17 +189,17 @@ GLAD/fast:
 .PHONY : GLAD/fast
 
 #=============================================================================
-# Target rules for targets named cross_platform_test
+# Target rules for targets named learnOpenGL
 
 # Build rule for target.
-cross_platform_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cross_platform_test
-.PHONY : cross_platform_test
+learnOpenGL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learnOpenGL
+.PHONY : learnOpenGL
 
 # fast build rule for target.
-cross_platform_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/build
-.PHONY : cross_platform_test/fast
+learnOpenGL/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/build
+.PHONY : learnOpenGL/fast
 
 #=============================================================================
 # Target rules for targets named STB_IMAGE
@@ -844,7 +844,7 @@ src/get_path.o: src/get_path.cpp.o
 
 # target to build an object file
 src/get_path.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/src/get_path.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/get_path.cpp.o
 .PHONY : src/get_path.cpp.o
 
 src/get_path.i: src/get_path.cpp.i
@@ -853,7 +853,7 @@ src/get_path.i: src/get_path.cpp.i
 
 # target to preprocess a source file
 src/get_path.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/src/get_path.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/get_path.cpp.i
 .PHONY : src/get_path.cpp.i
 
 src/get_path.s: src/get_path.cpp.s
@@ -862,7 +862,7 @@ src/get_path.s: src/get_path.cpp.s
 
 # target to generate assembly for a file
 src/get_path.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/src/get_path.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/get_path.cpp.s
 .PHONY : src/get_path.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -871,7 +871,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -880,7 +880,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -889,7 +889,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/resource_manager.o: src/resource_manager.cpp.o
@@ -898,7 +898,7 @@ src/resource_manager.o: src/resource_manager.cpp.o
 
 # target to build an object file
 src/resource_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/src/resource_manager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o
 .PHONY : src/resource_manager.cpp.o
 
 src/resource_manager.i: src/resource_manager.cpp.i
@@ -907,7 +907,7 @@ src/resource_manager.i: src/resource_manager.cpp.i
 
 # target to preprocess a source file
 src/resource_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/src/resource_manager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.i
 .PHONY : src/resource_manager.cpp.i
 
 src/resource_manager.s: src/resource_manager.cpp.s
@@ -916,7 +916,7 @@ src/resource_manager.s: src/resource_manager.cpp.s
 
 # target to generate assembly for a file
 src/resource_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/src/resource_manager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.s
 .PHONY : src/resource_manager.cpp.s
 
 src/third-party/glad.o: src/third-party/glad.c.o
@@ -1005,7 +1005,6 @@ help:
 	@echo "... boing"
 	@echo "... clipboard"
 	@echo "... common"
-	@echo "... cross_platform_test"
 	@echo "... cursor"
 	@echo "... empty"
 	@echo "... events"
@@ -1019,6 +1018,7 @@ help:
 	@echo "... iconify"
 	@echo "... inputlag"
 	@echo "... joysticks"
+	@echo "... learnOpenGL"
 	@echo "... monitors"
 	@echo "... msaa"
 	@echo "... offscreen"

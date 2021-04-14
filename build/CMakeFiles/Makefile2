@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /Users/archiejames/Desktop/cross_platform_test/build
 
 # The main recursive "all" target.
 all: CMakeFiles/GLAD.dir/all
-all: CMakeFiles/cross_platform_test.dir/all
+all: CMakeFiles/learnOpenGL.dir/all
 all: CMakeFiles/STB_IMAGE.dir/all
 all: third-party/glfw3/all
 all: third-party/glm/all
@@ -90,7 +90,7 @@ preinstall: third-party/openal-soft/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/GLAD.dir/clean
-clean: CMakeFiles/cross_platform_test.dir/clean
+clean: CMakeFiles/learnOpenGL.dir/clean
 clean: CMakeFiles/STB_IMAGE.dir/clean
 clean: third-party/glfw3/clean
 clean: third-party/glm/clean
@@ -362,34 +362,34 @@ CMakeFiles/GLAD.dir/clean:
 .PHONY : CMakeFiles/GLAD.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cross_platform_test.dir
+# Target rules for target CMakeFiles/learnOpenGL.dir
 
 # All Build rule for target.
-CMakeFiles/cross_platform_test.dir/all: CMakeFiles/STB_IMAGE.dir/all
-CMakeFiles/cross_platform_test.dir/all: CMakeFiles/GLAD.dir/all
-CMakeFiles/cross_platform_test.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
-CMakeFiles/cross_platform_test.dir/all: third-party/openal-soft/CMakeFiles/OpenAL.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=51,52 "Built target cross_platform_test"
-.PHONY : CMakeFiles/cross_platform_test.dir/all
+CMakeFiles/learnOpenGL.dir/all: CMakeFiles/GLAD.dir/all
+CMakeFiles/learnOpenGL.dir/all: CMakeFiles/STB_IMAGE.dir/all
+CMakeFiles/learnOpenGL.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
+CMakeFiles/learnOpenGL.dir/all: third-party/openal-soft/CMakeFiles/OpenAL.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=75,76 "Built target learnOpenGL"
+.PHONY : CMakeFiles/learnOpenGL.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cross_platform_test.dir/rule: cmake_check_build_system
+CMakeFiles/learnOpenGL.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 46
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cross_platform_test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/learnOpenGL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
-.PHONY : CMakeFiles/cross_platform_test.dir/rule
+.PHONY : CMakeFiles/learnOpenGL.dir/rule
 
 # Convenience name for target.
-cross_platform_test: CMakeFiles/cross_platform_test.dir/rule
+learnOpenGL: CMakeFiles/learnOpenGL.dir/rule
 
-.PHONY : cross_platform_test
+.PHONY : learnOpenGL
 
 # clean rule for target.
-CMakeFiles/cross_platform_test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/clean
-.PHONY : CMakeFiles/cross_platform_test.dir/clean
+CMakeFiles/learnOpenGL.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/clean
+.PHONY : CMakeFiles/learnOpenGL.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/STB_IMAGE.dir
@@ -452,7 +452,7 @@ third-party/glfw3/CMakeFiles/uninstall.dir/clean:
 third-party/glfw3/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/src/CMakeFiles/glfw.dir/build.make third-party/glfw3/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/src/CMakeFiles/glfw.dir/build.make third-party/glfw3/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=61,62,63,64,65,66,67 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=59,60,61,62,63,64,65 "Built target glfw"
 .PHONY : third-party/glfw3/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -587,7 +587,7 @@ third-party/glfw3/examples/CMakeFiles/particles.dir/clean:
 third-party/glfw3/examples/CMakeFiles/heightmap.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/examples/CMakeFiles/heightmap.dir/build.make third-party/glfw3/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/examples/CMakeFiles/heightmap.dir/build.make third-party/glfw3/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=70 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=68 "Built target heightmap"
 .PHONY : third-party/glfw3/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -668,7 +668,7 @@ third-party/glfw3/examples/CMakeFiles/offscreen.dir/clean:
 third-party/glfw3/examples/CMakeFiles/gears.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/examples/CMakeFiles/gears.dir/build.make third-party/glfw3/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/examples/CMakeFiles/gears.dir/build.make third-party/glfw3/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=60 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=58 "Built target gears"
 .PHONY : third-party/glfw3/examples/CMakeFiles/gears.dir/all
 
 # Build rule for subdir invocation for target.
@@ -884,12 +884,12 @@ third-party/glfw3/tests/CMakeFiles/opacity.dir/clean:
 third-party/glfw3/tests/CMakeFiles/gamma.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/gamma.dir/build.make third-party/glfw3/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/gamma.dir/build.make third-party/glfw3/tests/CMakeFiles/gamma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=58,59 "Built target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=57 "Built target gamma"
 .PHONY : third-party/glfw3/tests/CMakeFiles/gamma.dir/all
 
 # Build rule for subdir invocation for target.
 third-party/glfw3/tests/CMakeFiles/gamma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/glfw3/tests/CMakeFiles/gamma.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/glfw3/tests/CMakeFiles/gamma.dir/rule
@@ -938,12 +938,12 @@ third-party/glfw3/tests/CMakeFiles/tearing.dir/clean:
 third-party/glfw3/tests/CMakeFiles/iconify.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/iconify.dir/build.make third-party/glfw3/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/iconify.dir/build.make third-party/glfw3/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=72,73 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=71 "Built target iconify"
 .PHONY : third-party/glfw3/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
 third-party/glfw3/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/glfw3/tests/CMakeFiles/iconify.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/glfw3/tests/CMakeFiles/iconify.dir/rule
@@ -965,7 +965,7 @@ third-party/glfw3/tests/CMakeFiles/iconify.dir/clean:
 third-party/glfw3/tests/CMakeFiles/joysticks.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/joysticks.dir/build.make third-party/glfw3/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/joysticks.dir/build.make third-party/glfw3/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=76 "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=74 "Built target joysticks"
 .PHONY : third-party/glfw3/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1019,7 +1019,7 @@ third-party/glfw3/tests/CMakeFiles/windows.dir/clean:
 third-party/glfw3/tests/CMakeFiles/inputlag.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/inputlag.dir/build.make third-party/glfw3/tests/CMakeFiles/inputlag.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/inputlag.dir/build.make third-party/glfw3/tests/CMakeFiles/inputlag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=74,75 "Built target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=72,73 "Built target inputlag"
 .PHONY : third-party/glfw3/tests/CMakeFiles/inputlag.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1046,12 +1046,12 @@ third-party/glfw3/tests/CMakeFiles/inputlag.dir/clean:
 third-party/glfw3/tests/CMakeFiles/empty.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/empty.dir/build.make third-party/glfw3/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/empty.dir/build.make third-party/glfw3/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=54,55 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=53 "Built target empty"
 .PHONY : third-party/glfw3/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
 third-party/glfw3/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/glfw3/tests/CMakeFiles/empty.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/glfw3/tests/CMakeFiles/empty.dir/rule
@@ -1127,12 +1127,12 @@ third-party/glfw3/tests/CMakeFiles/msaa.dir/clean:
 third-party/glfw3/tests/CMakeFiles/cursor.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/cursor.dir/build.make third-party/glfw3/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/cursor.dir/build.make third-party/glfw3/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=53 "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=51,52 "Built target cursor"
 .PHONY : third-party/glfw3/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
 third-party/glfw3/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/glfw3/tests/CMakeFiles/cursor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/glfw3/tests/CMakeFiles/cursor.dir/rule
@@ -1154,7 +1154,7 @@ third-party/glfw3/tests/CMakeFiles/cursor.dir/clean:
 third-party/glfw3/tests/CMakeFiles/glfwinfo.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/glfwinfo.dir/build.make third-party/glfw3/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/glfwinfo.dir/build.make third-party/glfw3/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=68,69 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=66,67 "Built target glfwinfo"
 .PHONY : third-party/glfw3/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1208,7 +1208,7 @@ third-party/glfw3/tests/CMakeFiles/monitors.dir/clean:
 third-party/glfw3/tests/CMakeFiles/events.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/events.dir/build.make third-party/glfw3/tests/CMakeFiles/events.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/events.dir/build.make third-party/glfw3/tests/CMakeFiles/events.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=56,57 "Built target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=54,55 "Built target events"
 .PHONY : third-party/glfw3/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1235,12 +1235,12 @@ third-party/glfw3/tests/CMakeFiles/events.dir/clean:
 third-party/glfw3/tests/CMakeFiles/icon.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/icon.dir/build.make third-party/glfw3/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/glfw3/tests/CMakeFiles/icon.dir/build.make third-party/glfw3/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=71 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=69,70 "Built target icon"
 .PHONY : third-party/glfw3/tests/CMakeFiles/icon.dir/all
 
 # Build rule for subdir invocation for target.
 third-party/glfw3/tests/CMakeFiles/icon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/glfw3/tests/CMakeFiles/icon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/glfw3/tests/CMakeFiles/icon.dir/rule
@@ -1268,7 +1268,7 @@ third-party/openal-soft/CMakeFiles/alffplay.dir/all: third-party/openal-soft/CMa
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/alffplay.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/alffplay.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/alffplay.dir/rule
@@ -1296,7 +1296,7 @@ third-party/openal-soft/CMakeFiles/alstreamcb.dir/all: third-party/openal-soft/C
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/alstreamcb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/alstreamcb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/alstreamcb.dir/rule
@@ -1324,7 +1324,7 @@ third-party/openal-soft/CMakeFiles/alhrtf.dir/all: third-party/openal-soft/CMake
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/alhrtf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/alhrtf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/alhrtf.dir/rule
@@ -1352,7 +1352,7 @@ third-party/openal-soft/CMakeFiles/allatency.dir/all: third-party/openal-soft/CM
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/allatency.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/allatency.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/allatency.dir/rule
@@ -1380,7 +1380,7 @@ third-party/openal-soft/CMakeFiles/almultireverb.dir/all: third-party/openal-sof
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/almultireverb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/almultireverb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/almultireverb.dir/rule
@@ -1436,7 +1436,7 @@ third-party/openal-soft/CMakeFiles/alstream.dir/all: third-party/openal-soft/CMa
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/alstream.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/alstream.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/alstream.dir/rule
@@ -1491,7 +1491,7 @@ third-party/openal-soft/CMakeFiles/alplay.dir/all: third-party/openal-soft/CMake
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/alplay.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/alplay.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/alplay.dir/rule
@@ -1519,7 +1519,7 @@ third-party/openal-soft/CMakeFiles/alrecord.dir/all: third-party/openal-soft/CMa
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/alrecord.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/alrecord.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/alrecord.dir/rule
@@ -1547,7 +1547,7 @@ third-party/openal-soft/CMakeFiles/altonegen.dir/all: third-party/openal-soft/CM
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/altonegen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/altonegen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/altonegen.dir/rule
@@ -1575,7 +1575,7 @@ third-party/openal-soft/CMakeFiles/alloopback.dir/all: third-party/openal-soft/C
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/alloopback.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/alloopback.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/alloopback.dir/rule
@@ -1604,7 +1604,7 @@ third-party/openal-soft/CMakeFiles/alconvolve.dir/all: third-party/openal-soft/C
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/alconvolve.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/alconvolve.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/alconvolve.dir/rule
@@ -1632,7 +1632,7 @@ third-party/openal-soft/CMakeFiles/alreverb.dir/all: third-party/openal-soft/CMa
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/alreverb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/alreverb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/alreverb.dir/rule
@@ -1654,12 +1654,12 @@ third-party/openal-soft/CMakeFiles/alreverb.dir/clean:
 third-party/openal-soft/CMakeFiles/ex-common.dir/all: third-party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/ex-common.dir/build.make third-party/openal-soft/CMakeFiles/ex-common.dir/depend
 	$(MAKE) $(MAKESILENT) -f third-party/openal-soft/CMakeFiles/ex-common.dir/build.make third-party/openal-soft/CMakeFiles/ex-common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num= "Built target ex-common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=56 "Built target ex-common"
 .PHONY : third-party/openal-soft/CMakeFiles/ex-common.dir/all
 
 # Build rule for subdir invocation for target.
 third-party/openal-soft/CMakeFiles/ex-common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 third-party/openal-soft/CMakeFiles/ex-common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles 0
 .PHONY : third-party/openal-soft/CMakeFiles/ex-common.dir/rule
