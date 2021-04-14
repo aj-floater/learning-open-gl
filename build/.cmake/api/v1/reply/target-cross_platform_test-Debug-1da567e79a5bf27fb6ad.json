@@ -84,7 +84,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "glfw::@ae5dc6be4513943580ec"
+			"id" : "STB_IMAGE::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 2,
@@ -92,7 +92,7 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "STB_IMAGE::@6890427a1f51a3e7e1df"
+			"id" : "glfw::@ae5dc6be4513943580ec"
 		},
 		{
 			"backtrace" : 2,

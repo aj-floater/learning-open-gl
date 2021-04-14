@@ -365,9 +365,9 @@ CMakeFiles/GLAD.dir/clean:
 # Target rules for target CMakeFiles/cross_platform_test.dir
 
 # All Build rule for target.
-CMakeFiles/cross_platform_test.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
-CMakeFiles/cross_platform_test.dir/all: CMakeFiles/GLAD.dir/all
 CMakeFiles/cross_platform_test.dir/all: CMakeFiles/STB_IMAGE.dir/all
+CMakeFiles/cross_platform_test.dir/all: CMakeFiles/GLAD.dir/all
+CMakeFiles/cross_platform_test.dir/all: third-party/glfw3/src/CMakeFiles/glfw.dir/all
 CMakeFiles/cross_platform_test.dir/all: third-party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cross_platform_test.dir/build.make CMakeFiles/cross_platform_test.dir/build
