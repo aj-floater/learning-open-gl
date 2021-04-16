@@ -42,7 +42,7 @@ float lastX =  800.0f / 2.0;
 float lastY =  600.0 / 2.0;
 float fov = 45.0f;
 
-float delta_time, previous_time;
+float delta_time, previous_time, previous_fps_time, fps;
 
 int main()
 {
@@ -51,6 +51,8 @@ int main()
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_DOUBLEBUFFER, GL_FALSE);
+
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 #ifdef __APPLE__
@@ -175,25 +177,47 @@ int main()
 
         delta_time = glfwGetTime() - previous_time;
         previous_time = glfwGetTime();
+
+        if (glfwGetTime() - previous_fps_time >= 1){
+            std::cout << fps << std::endl;
+            previous_fps_time = glfwGetTime();
+            fps = 0;
+        }
+        else {
+            fps++;
+        }
+        
         
         glm::mat4 view          = glm::mat4(1.0f);
         glm::mat4 projection    = glm::mat4(1.0f);
         glm::mat4 model         = glm::mat4(1.0f);
         lights[0].pos = glm::vec3(sin(glfwGetTime()), sin(glfwGetTime()/4), cos(glfwGetTime()));
-        lights[1].pos = glm::vec3(cos(glfwGetTime()), cos(glfwGetTime()), sin(glfwGetTime()));
+        lights[1].pos = glm::vec3(cos(glfwGetTime()), cos(glfwGetTime()/4), sin(glfwGetTime()));
         lights[2].pos = glm::vec3(sin(glfwGetTime()*2), cos(glfwGetTime()), cos(glfwGetTime()*2));
         
         // draw main cube (with transformations applied and rudimentary lighting added) ------------------------------------------------------------
         glUseProgram(ResourceManager::Shader("container"));
-        glUniform3f(glGetUniformLocation(ResourceManager::Shader("container"), "objectColor"), 1.0f, 0.5f, 0.33f);
         glUniform3f(glGetUniformLocation(ResourceManager::Shader("container"), "viewPos"), cameraPos.x, cameraPos.y, cameraPos.z);
 
         for (int i = 0; i < lightNumber; i++){
-            unsigned int lightColorLoc = glGetUniformLocation(ResourceManager::Shader("container"), std::string("lightColor[" + std::to_string(i) + "]").c_str());
-            glUniform3f(lightColorLoc, lights[i].color.r, lights[i].color.g, lights[i].color.b);
-            unsigned int lightPosLoc = glGetUniformLocation(ResourceManager::Shader("container"), std::string("lightPos[" + std::to_string(i) + "]").c_str());
-            glUniform3f(lightPosLoc, lights[i].pos.x, lights[i].pos.y, lights[i].pos.z);
+            unsigned int ambientLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].ambient").c_str());
+            glUniform3f(ambientLocation, lights[i].color.r * 0.2f, lights[i].color.g * 0.2f, lights[i].color.b * 0.2f);
+            unsigned int diffuseLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].diffuse").c_str());
+            glUniform3f(diffuseLocation, lights[i].color.r * 0.5f, lights[i].color.g * 0.5f, lights[i].color.b * 0.5f);
+            unsigned int specularLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].specular").c_str());
+            glUniform3f(specularLocation, lights[i].color.r * 1.0f, lights[i].color.g * 1.0f, lights[i].color.b * 1.0f);
+            unsigned int positionLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].position").c_str());
+            glUniform3f(positionLocation, lights[i].pos.x, lights[i].pos.y, lights[i].pos.z);
         }
+
+        unsigned int ambientLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("material.ambient").c_str());
+        glUniform3f(ambientLocation, 0.5f, 0.5f, 0.5f);
+        unsigned int diffuseLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("material.diffuse").c_str());
+        glUniform3f(diffuseLocation, 0.8f, 0.8f, 0.8f);
+        unsigned int specularLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("material.specular").c_str());
+        glUniform3f(specularLocation, 0.5f, 0.5f, 0.5f);       
+        unsigned int shininessLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("material.shininess").c_str());
+        glUniform1f(shininessLocation, 32.0f);
 
         projection = glm::perspective(glm::radians(fov), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
         view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
@@ -206,6 +230,7 @@ int main()
 
         glBindVertexArray(VAO);
         glDrawArrays(GL_TRIANGLES, 0, 36);
+
         //  ----------------------------------------------------------------------------------------------------------------------------------------
 
         // draw smaller light cube (with scaling and translation applied depending on lightPos) ----------------------------------------------------
@@ -225,8 +250,8 @@ int main()
         }
         //  ----------------------------------------------------------------------------------------------------------------------------------------
 
+        glFlush();
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
-        glfwSwapBuffers(window);
         glfwPollEvents();
     }
 
