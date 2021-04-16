@@ -1,0 +1,1 @@
+/usr/bin/clang -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/heightmap.dir/heightmap.c.o CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o -o heightmap.app/Contents/MacOS/heightmap  ../src/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation 
