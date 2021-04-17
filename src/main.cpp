@@ -5,9 +5,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include <AL/al.h>
-#include <AL/alc.h>
-
 #include <stb_image.h>
 
 #include "light.h"
@@ -297,9 +294,8 @@ int main()
         container.diffuse.r = cube_diffuse[0]; container.diffuse.g = cube_diffuse[1]; container.diffuse.b = cube_diffuse[2];
         ImGui::ColorEdit3("Cube Specular", cube_specular);
         container.specular.r = cube_specular[0]; container.specular.g = cube_specular[1]; container.specular.b = cube_specular[2];
-        ImGui::SetWindowFontScale(0.75);
         ImGui::SetWindowPos(ImVec2(0,0));
-        ImGui::SetWindowSize(ImVec2(300,125));
+        ImGui::SetWindowSize(ImVec2(325,150));
         ImGui::End();
 
         for (int i = 1; i < lightNumber+1; i++){
@@ -308,9 +304,8 @@ int main()
             ImGui::ColorEdit3("Light Ambience", lights[i-1].ambientMultiplier);
             ImGui::ColorEdit3("Light Diffuse", lights[i-1].diffuseMultiplier);
             ImGui::ColorEdit3("Light Specular", lights[i-1].specularMultiplier);
-            ImGui::SetWindowFontScale(0.75);
-            ImGui::SetWindowPos(ImVec2(0,(i * 110)+15));
-            ImGui::SetWindowSize(ImVec2(300,110));
+            ImGui::SetWindowPos(ImVec2(0,(i * 125)+25));
+            ImGui::SetWindowSize(ImVec2(325,125));
             ImGui::End();
         }
 
@@ -320,6 +315,7 @@ int main()
             glfwSetWindowMonitor(window, fullscreen ? monitor : NULL, 0, 0, fullscreen ? mode->width : SCR_WIDTH, fullscreen ? mode->height : SCR_HEIGHT, GLFW_DONT_CARE);
             glfwSetWindowSize(window, fullscreen ? mode->width : SCR_WIDTH, fullscreen ? mode->height : SCR_HEIGHT);
         }
+        ImGui::SliderFloat("FOV", &fov, 1.0f, 180.0f);
         ImGui::End();
 
         // Render dear imgui into screen
@@ -419,11 +415,17 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos)
 
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
 {
-    fov -= (float)(yoffset * 5 * delta_time);
+    #if defined(_WIN32)
+        int multiplier = 1000;
+    #endif
+    #if defined(__APPLE__)
+        int multiplier = 5;
+    #endif
+    fov -= (float)(yoffset * multiplier * delta_time);
     if (fov < 1.0f)
         fov = 1.0f;
-    if (fov > 45.0f)
-        fov = 45.0f;
+    if (fov > 180.0f)
+        fov = 180.0f;
 }
 
 // glfw: whenever the window size changed (by OS or user resize) this callback function executes
