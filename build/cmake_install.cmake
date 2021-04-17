@@ -41,7 +41,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/cmake_install.cmake")
   include("/Users/archiejames/Desktop/cross_platform_test/build/third-party/glm/cmake_install.cmake")
-  include("/Users/archiejames/Desktop/cross_platform_test/build/third-party/openal-soft/cmake_install.cmake")
 
 endif()
 

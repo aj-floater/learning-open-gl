@@ -26,19 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 37,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 39,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 10,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -65,10 +65,6 @@
 				{
 					"backtrace" : 2,
 					"path" : "/Users/archiejames/Desktop/cross_platform_test/third-party/glm"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "/Users/archiejames/Desktop/cross_platform_test/third-party/openal-soft/include"
 				}
 			],
 			"language" : "CXX",
@@ -99,10 +95,6 @@
 		{
 			"backtrace" : 2,
 			"id" : "glfw::@ae5dc6be4513943580ec"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "OpenAL::@25d8db545ac1c0757485"
 		}
 	],
 	"id" : "learnOpenGL::@6890427a1f51a3e7e1df",
@@ -119,17 +111,8 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/Users/archiejames/Desktop/cross_platform_test/build/third-party/openal-soft",
-				"role" : "libraries"
-			},
-			{
 				"backtrace" : 2,
 				"fragment" : "third-party/glfw3/src/libglfw3.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "third-party/openal-soft/libopenal.1.21.1.dylib",
 				"role" : "libraries"
 			},
 			{

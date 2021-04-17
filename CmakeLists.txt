@@ -4,12 +4,11 @@ project(learnOpenGL)
 # adds subdirectories for third party libraries
 add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/glfw3)
 add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/glm)
-add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/openal-soft)
 
 # adds include directory
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-set(LIBS glfw glm OpenAL)
+set(LIBS glfw glm)
 
 if(APPLE)
     # find opengl

@@ -219,8 +219,6 @@ CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../third-party/glm/glm/vec2.hpp
 CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../third-party/glm/glm/vec3.hpp
 CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../third-party/glm/glm/vec4.hpp
 CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../third-party/glm/glm/vector_relational.hpp
-CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../third-party/openal-soft/include/AL/al.h
-CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../third-party/openal-soft/include/AL/alc.h
 CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../src/main.cpp
 
 CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o: ../include/KHR/khrplatform.h

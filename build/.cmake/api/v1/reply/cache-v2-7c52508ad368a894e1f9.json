@@ -1843,7 +1843,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "9"
+			"value" : "7"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",

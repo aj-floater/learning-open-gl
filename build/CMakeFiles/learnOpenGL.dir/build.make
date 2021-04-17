@@ -219,7 +219,6 @@ learnOpenGL: CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o
 learnOpenGL: CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o
 learnOpenGL: CMakeFiles/learnOpenGL.dir/build.make
 learnOpenGL: third-party/glfw3/src/libglfw3.a
-learnOpenGL: third-party/openal-soft/libopenal.1.21.1.dylib
 learnOpenGL: libGLAD.a
 learnOpenGL: libSTB_IMAGE.a
 learnOpenGL: CMakeFiles/learnOpenGL.dir/link.txt

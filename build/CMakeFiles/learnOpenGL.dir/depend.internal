@@ -220,8 +220,6 @@ CMakeFiles/learnOpenGL.dir/src/main.cpp.o
  ../third-party/glm/glm/vec3.hpp
  ../third-party/glm/glm/vec4.hpp
  ../third-party/glm/glm/vector_relational.hpp
- ../third-party/openal-soft/include/AL/al.h
- ../third-party/openal-soft/include/AL/alc.h
  /Users/archiejames/Desktop/cross_platform_test/src/main.cpp
 CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o
  ../include/KHR/khrplatform.h
