@@ -6,13 +6,10 @@ add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/glfw3)
 add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/glm)
 add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/openal-soft)
 
-
 # adds include directory
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 set(LIBS glfw glm OpenAL)
-
-
 
 if(APPLE)
     # find opengl
@@ -30,6 +27,7 @@ set(LIBS ${LIBS} GLAD STB_IMAGE)
 # adds source files to SOURCE
 file(GLOB SOURCE
     "src/*.cpp"
+    "src/third-party/imgui/*.cpp"
 )
 
 # copy resources directory into build folder

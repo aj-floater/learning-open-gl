@@ -25,6 +25,36 @@
   "file": "/Users/archiejames/Desktop/cross_platform_test/src/resource_manager.cpp"
 },
 {
+  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/Desktop/cross_platform_test/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glm -I/Users/archiejames/Desktop/cross_platform_test/third-party/openal-soft/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui.cpp",
+  "file": "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui.cpp"
+},
+{
+  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/Desktop/cross_platform_test/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glm -I/Users/archiejames/Desktop/cross_platform_test/third-party/openal-soft/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_draw.cpp",
+  "file": "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/Desktop/cross_platform_test/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glm -I/Users/archiejames/Desktop/cross_platform_test/third-party/openal-soft/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/Desktop/cross_platform_test/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glm -I/Users/archiejames/Desktop/cross_platform_test/third-party/openal-soft/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/Desktop/cross_platform_test/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glm -I/Users/archiejames/Desktop/cross_platform_test/third-party/openal-soft/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_tables.cpp",
+  "file": "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "/Users/archiejames/Desktop/cross_platform_test/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/Desktop/cross_platform_test/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glm -I/Users/archiejames/Desktop/cross_platform_test/third-party/openal-soft/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_widgets.cpp",
+  "file": "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_widgets.cpp"
+},
+{
   "directory": "/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src",
   "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/include -I/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src -I/Users/archiejames/Desktop/cross_platform_test/build/third-party/glfw3/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/context.c.o -c /Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/context.c",
   "file": "/Users/archiejames/Desktop/cross_platform_test/third-party/glfw3/src/context.c"

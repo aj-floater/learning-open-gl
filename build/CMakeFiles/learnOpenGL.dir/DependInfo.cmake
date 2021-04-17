@@ -7,6 +7,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/archiejames/Desktop/cross_platform_test/src/get_path.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/learnOpenGL.dir/src/get_path.cpp.o"
   "/Users/archiejames/Desktop/cross_platform_test/src/main.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/learnOpenGL.dir/src/main.cpp.o"
   "/Users/archiejames/Desktop/cross_platform_test/src/resource_manager.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o"
+  "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o"
+  "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_draw.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o"
+  "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_glfw.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o"
+  "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_opengl3.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o"
+  "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_tables.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o"
+  "/Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_widgets.cpp" "/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

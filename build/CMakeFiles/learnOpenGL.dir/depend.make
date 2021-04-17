@@ -7,6 +7,11 @@ CMakeFiles/learnOpenGL.dir/src/get_path.cpp.o: ../src/get_path.cpp
 CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/KHR/khrplatform.h
 CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/get_path.h
 CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/glad/glad.h
+CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/imgui/imconfig.h
+CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/imgui/imgui.h
+CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/imgui/imgui_impl_glfw.h
+CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/imgui/imgui_impl_opengl3.h
+CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/keys.h
 CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/light.h
 CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/resource_manager.h
 CMakeFiles/learnOpenGL.dir/src/main.cpp.o: ../include/shader.h
@@ -227,4 +232,44 @@ CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o: ../include/sound.h
 CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o: ../include/stb_image.h
 CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o: ../third-party/glfw3/include/GLFW/glfw3.h
 CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o: ../src/resource_manager.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o: ../include/imgui/imconfig.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o: ../include/imgui/imgui.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o: ../include/imgui/imgui_internal.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o: ../include/imgui/imstb_textedit.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o: ../src/third-party/imgui/imgui.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o: ../include/imgui/imconfig.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o: ../include/imgui/imgui.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o: ../include/imgui/imgui_internal.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o: ../include/imgui/imstb_rectpack.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o: ../include/imgui/imstb_textedit.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o: ../include/imgui/imstb_truetype.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o: ../src/third-party/imgui/imgui_draw.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o: ../include/imgui/imconfig.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o: ../include/imgui/imgui.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o: ../include/imgui/imgui_impl_glfw.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o: ../third-party/glfw3/include/GLFW/glfw3.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o: ../third-party/glfw3/include/GLFW/glfw3native.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o: ../src/third-party/imgui/imgui_impl_glfw.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o: ../include/KHR/khrplatform.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o: ../include/glad/glad.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o: ../include/imgui/imconfig.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o: ../include/imgui/imgui.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o: ../include/imgui/imgui_impl_opengl3.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o: ../src/third-party/imgui/imgui_impl_opengl3.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o: ../include/imgui/imconfig.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o: ../include/imgui/imgui.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o: ../include/imgui/imgui_internal.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o: ../include/imgui/imstb_textedit.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o: ../src/third-party/imgui/imgui_tables.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o: ../include/imgui/imconfig.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o: ../include/imgui/imgui.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o: ../include/imgui/imgui_internal.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o: ../include/imgui/imstb_textedit.h
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o: ../src/third-party/imgui/imgui_widgets.cpp
 

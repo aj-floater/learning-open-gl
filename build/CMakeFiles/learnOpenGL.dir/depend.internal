@@ -8,6 +8,11 @@ CMakeFiles/learnOpenGL.dir/src/main.cpp.o
  ../include/KHR/khrplatform.h
  ../include/get_path.h
  ../include/glad/glad.h
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_impl_glfw.h
+ ../include/imgui/imgui_impl_opengl3.h
+ ../include/keys.h
  ../include/light.h
  ../include/resource_manager.h
  ../include/shader.h
@@ -228,3 +233,43 @@ CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o
  ../include/stb_image.h
  ../third-party/glfw3/include/GLFW/glfw3.h
  /Users/archiejames/Desktop/cross_platform_test/src/resource_manager.cpp
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_internal.h
+ ../include/imgui/imstb_textedit.h
+ /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui.cpp
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_internal.h
+ ../include/imgui/imstb_rectpack.h
+ ../include/imgui/imstb_textedit.h
+ ../include/imgui/imstb_truetype.h
+ /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_draw.cpp
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_impl_glfw.h
+ ../third-party/glfw3/include/GLFW/glfw3.h
+ ../third-party/glfw3/include/GLFW/glfw3native.h
+ /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_glfw.cpp
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o
+ ../include/KHR/khrplatform.h
+ ../include/glad/glad.h
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_impl_opengl3.h
+ /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_internal.h
+ ../include/imgui/imstb_textedit.h
+ /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_tables.cpp
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_internal.h
+ ../include/imgui/imstb_textedit.h
+ /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_widgets.cpp

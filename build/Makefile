@@ -946,6 +946,168 @@ src/third-party/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/third-party/glad.c.s
 .PHONY : src/third-party/glad.c.s
 
+src/third-party/imgui/imgui.o: src/third-party/imgui/imgui.cpp.o
+
+.PHONY : src/third-party/imgui/imgui.o
+
+# target to build an object file
+src/third-party/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o
+.PHONY : src/third-party/imgui/imgui.cpp.o
+
+src/third-party/imgui/imgui.i: src/third-party/imgui/imgui.cpp.i
+
+.PHONY : src/third-party/imgui/imgui.i
+
+# target to preprocess a source file
+src/third-party/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.i
+.PHONY : src/third-party/imgui/imgui.cpp.i
+
+src/third-party/imgui/imgui.s: src/third-party/imgui/imgui.cpp.s
+
+.PHONY : src/third-party/imgui/imgui.s
+
+# target to generate assembly for a file
+src/third-party/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.s
+.PHONY : src/third-party/imgui/imgui.cpp.s
+
+src/third-party/imgui/imgui_draw.o: src/third-party/imgui/imgui_draw.cpp.o
+
+.PHONY : src/third-party/imgui/imgui_draw.o
+
+# target to build an object file
+src/third-party/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o
+.PHONY : src/third-party/imgui/imgui_draw.cpp.o
+
+src/third-party/imgui/imgui_draw.i: src/third-party/imgui/imgui_draw.cpp.i
+
+.PHONY : src/third-party/imgui/imgui_draw.i
+
+# target to preprocess a source file
+src/third-party/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.i
+.PHONY : src/third-party/imgui/imgui_draw.cpp.i
+
+src/third-party/imgui/imgui_draw.s: src/third-party/imgui/imgui_draw.cpp.s
+
+.PHONY : src/third-party/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+src/third-party/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.s
+.PHONY : src/third-party/imgui/imgui_draw.cpp.s
+
+src/third-party/imgui/imgui_impl_glfw.o: src/third-party/imgui/imgui_impl_glfw.cpp.o
+
+.PHONY : src/third-party/imgui/imgui_impl_glfw.o
+
+# target to build an object file
+src/third-party/imgui/imgui_impl_glfw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o
+.PHONY : src/third-party/imgui/imgui_impl_glfw.cpp.o
+
+src/third-party/imgui/imgui_impl_glfw.i: src/third-party/imgui/imgui_impl_glfw.cpp.i
+
+.PHONY : src/third-party/imgui/imgui_impl_glfw.i
+
+# target to preprocess a source file
+src/third-party/imgui/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.i
+.PHONY : src/third-party/imgui/imgui_impl_glfw.cpp.i
+
+src/third-party/imgui/imgui_impl_glfw.s: src/third-party/imgui/imgui_impl_glfw.cpp.s
+
+.PHONY : src/third-party/imgui/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+src/third-party/imgui/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.s
+.PHONY : src/third-party/imgui/imgui_impl_glfw.cpp.s
+
+src/third-party/imgui/imgui_impl_opengl3.o: src/third-party/imgui/imgui_impl_opengl3.cpp.o
+
+.PHONY : src/third-party/imgui/imgui_impl_opengl3.o
+
+# target to build an object file
+src/third-party/imgui/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : src/third-party/imgui/imgui_impl_opengl3.cpp.o
+
+src/third-party/imgui/imgui_impl_opengl3.i: src/third-party/imgui/imgui_impl_opengl3.cpp.i
+
+.PHONY : src/third-party/imgui/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+src/third-party/imgui/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : src/third-party/imgui/imgui_impl_opengl3.cpp.i
+
+src/third-party/imgui/imgui_impl_opengl3.s: src/third-party/imgui/imgui_impl_opengl3.cpp.s
+
+.PHONY : src/third-party/imgui/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+src/third-party/imgui/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : src/third-party/imgui/imgui_impl_opengl3.cpp.s
+
+src/third-party/imgui/imgui_tables.o: src/third-party/imgui/imgui_tables.cpp.o
+
+.PHONY : src/third-party/imgui/imgui_tables.o
+
+# target to build an object file
+src/third-party/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o
+.PHONY : src/third-party/imgui/imgui_tables.cpp.o
+
+src/third-party/imgui/imgui_tables.i: src/third-party/imgui/imgui_tables.cpp.i
+
+.PHONY : src/third-party/imgui/imgui_tables.i
+
+# target to preprocess a source file
+src/third-party/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.i
+.PHONY : src/third-party/imgui/imgui_tables.cpp.i
+
+src/third-party/imgui/imgui_tables.s: src/third-party/imgui/imgui_tables.cpp.s
+
+.PHONY : src/third-party/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+src/third-party/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.s
+.PHONY : src/third-party/imgui/imgui_tables.cpp.s
+
+src/third-party/imgui/imgui_widgets.o: src/third-party/imgui/imgui_widgets.cpp.o
+
+.PHONY : src/third-party/imgui/imgui_widgets.o
+
+# target to build an object file
+src/third-party/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o
+.PHONY : src/third-party/imgui/imgui_widgets.cpp.o
+
+src/third-party/imgui/imgui_widgets.i: src/third-party/imgui/imgui_widgets.cpp.i
+
+.PHONY : src/third-party/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+src/third-party/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.i
+.PHONY : src/third-party/imgui/imgui_widgets.cpp.i
+
+src/third-party/imgui/imgui_widgets.s: src/third-party/imgui/imgui_widgets.cpp.s
+
+.PHONY : src/third-party/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+src/third-party/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnOpenGL.dir/build.make CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.s
+.PHONY : src/third-party/imgui/imgui_widgets.cpp.s
+
 src/third-party/stb_image.o: src/third-party/stb_image.cpp.o
 
 .PHONY : src/third-party/stb_image.o
@@ -1048,6 +1210,24 @@ help:
 	@echo "... src/third-party/glad.o"
 	@echo "... src/third-party/glad.i"
 	@echo "... src/third-party/glad.s"
+	@echo "... src/third-party/imgui/imgui.o"
+	@echo "... src/third-party/imgui/imgui.i"
+	@echo "... src/third-party/imgui/imgui.s"
+	@echo "... src/third-party/imgui/imgui_draw.o"
+	@echo "... src/third-party/imgui/imgui_draw.i"
+	@echo "... src/third-party/imgui/imgui_draw.s"
+	@echo "... src/third-party/imgui/imgui_impl_glfw.o"
+	@echo "... src/third-party/imgui/imgui_impl_glfw.i"
+	@echo "... src/third-party/imgui/imgui_impl_glfw.s"
+	@echo "... src/third-party/imgui/imgui_impl_opengl3.o"
+	@echo "... src/third-party/imgui/imgui_impl_opengl3.i"
+	@echo "... src/third-party/imgui/imgui_impl_opengl3.s"
+	@echo "... src/third-party/imgui/imgui_tables.o"
+	@echo "... src/third-party/imgui/imgui_tables.i"
+	@echo "... src/third-party/imgui/imgui_tables.s"
+	@echo "... src/third-party/imgui/imgui_widgets.o"
+	@echo "... src/third-party/imgui/imgui_widgets.i"
+	@echo "... src/third-party/imgui/imgui_widgets.s"
 	@echo "... src/third-party/stb_image.o"
 	@echo "... src/third-party/stb_image.i"
 	@echo "... src/third-party/stb_image.s"

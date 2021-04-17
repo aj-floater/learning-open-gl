@@ -115,11 +115,95 @@ CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archiejames/Desktop/cross_platform_test/src/resource_manager.cpp -o CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.s
 
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o: CMakeFiles/learnOpenGL.dir/flags.make
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o: ../src/third-party/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui.cpp > CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.i
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui.cpp -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.s
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o: CMakeFiles/learnOpenGL.dir/flags.make
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o: ../src/third-party/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_draw.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_draw.cpp > CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.i
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_draw.cpp -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.s
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/learnOpenGL.dir/flags.make
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o: ../src/third-party/imgui/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_glfw.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_glfw.cpp > CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.i
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_glfw.cpp -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.s
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/learnOpenGL.dir/flags.make
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o: ../src/third-party/imgui/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_opengl3.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_opengl3.cpp > CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o: CMakeFiles/learnOpenGL.dir/flags.make
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o: ../src/third-party/imgui/imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_tables.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_tables.cpp > CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.i
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_tables.cpp -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.s
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o: CMakeFiles/learnOpenGL.dir/flags.make
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o: ../src/third-party/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o -c /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_widgets.cpp
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_widgets.cpp > CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archiejames/Desktop/cross_platform_test/src/third-party/imgui/imgui_widgets.cpp -o CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.s
+
 # Object files for target learnOpenGL
 learnOpenGL_OBJECTS = \
 "CMakeFiles/learnOpenGL.dir/src/get_path.cpp.o" \
 "CMakeFiles/learnOpenGL.dir/src/main.cpp.o" \
-"CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o"
+"CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o" \
+"CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o" \
+"CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o"
 
 # External object files for target learnOpenGL
 learnOpenGL_EXTERNAL_OBJECTS =
@@ -127,13 +211,19 @@ learnOpenGL_EXTERNAL_OBJECTS =
 learnOpenGL: CMakeFiles/learnOpenGL.dir/src/get_path.cpp.o
 learnOpenGL: CMakeFiles/learnOpenGL.dir/src/main.cpp.o
 learnOpenGL: CMakeFiles/learnOpenGL.dir/src/resource_manager.cpp.o
+learnOpenGL: CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui.cpp.o
+learnOpenGL: CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_draw.cpp.o
+learnOpenGL: CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_glfw.cpp.o
+learnOpenGL: CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_impl_opengl3.cpp.o
+learnOpenGL: CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_tables.cpp.o
+learnOpenGL: CMakeFiles/learnOpenGL.dir/src/third-party/imgui/imgui_widgets.cpp.o
 learnOpenGL: CMakeFiles/learnOpenGL.dir/build.make
 learnOpenGL: third-party/glfw3/src/libglfw3.a
 learnOpenGL: third-party/openal-soft/libopenal.1.21.1.dylib
 learnOpenGL: libGLAD.a
 learnOpenGL: libSTB_IMAGE.a
 learnOpenGL: CMakeFiles/learnOpenGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable learnOpenGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/archiejames/Desktop/cross_platform_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable learnOpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learnOpenGL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
