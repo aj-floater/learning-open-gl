@@ -184,6 +184,8 @@ int main()
     static float cube_diffuse[] = {1, 1, 1};
     static float cube_specular[] = {1, 1, 1};
 
+    static float bg_color[] = {0, 0, 0, 1};
+
     // render loop
     // -----------
     while (!glfwWindowShouldClose(window))
@@ -202,7 +204,7 @@ int main()
         // render
         // ------
         // glClearColor(0.1f, 0.05f, 0.1f, 1.0f);
-        glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+        glClearColor(bg_color[0], bg_color[1], bg_color[2], bg_color[3]);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         delta_time = glfwGetTime() - previous_time;
@@ -269,6 +271,7 @@ int main()
         glUseProgram(ResourceManager::Shader("light"));
         
         for (int i = 0; i < lightNumber; i++){
+            if (lights[i].displayLight){
             model = glm::mat4(1.0f);
             model = glm::translate(model, lights[i].pos);
             model = glm::scale(model, glm::vec3(0.2f));
@@ -279,6 +282,7 @@ int main()
             glUniform4f(glGetUniformLocation(ResourceManager::Shader("light"), "lightColor"), lights[i].color[0], lights[i].color[1], lights[i].color[2], 1.0f);
             glBindVertexArray(lightVAO);
             glDrawArrays(GL_TRIANGLES, 0, 36);
+            }
         }
         //  ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -304,8 +308,11 @@ int main()
             ImGui::ColorEdit3("Light Ambience", lights[i-1].ambientMultiplier);
             ImGui::ColorEdit3("Light Diffuse", lights[i-1].diffuseMultiplier);
             ImGui::ColorEdit3("Light Specular", lights[i-1].specularMultiplier);
-            ImGui::SetWindowPos(ImVec2(0,(i * 125)+25));
-            ImGui::SetWindowSize(ImVec2(325,125));
+            if(ImGui::RadioButton("Display", lights[i-1].displayLight)){
+                lights[i-1].displayLight = lights[i-1].displayLight ? false : true;
+            }
+            ImGui::SetWindowPos(ImVec2(0,i * 150));
+            ImGui::SetWindowSize(ImVec2(325,150));
             ImGui::End();
         }
 
@@ -316,6 +323,7 @@ int main()
             glfwSetWindowSize(window, fullscreen ? mode->width : SCR_WIDTH, fullscreen ? mode->height : SCR_HEIGHT);
         }
         ImGui::SliderFloat("FOV", &fov, 1.0f, 150.0f);
+        ImGui::ColorEdit4("BG Color", bg_color);
         ImGui::End();
 
         // Render dear imgui into screen
