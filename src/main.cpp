@@ -315,7 +315,7 @@ int main()
             glfwSetWindowMonitor(window, fullscreen ? monitor : NULL, 0, 0, fullscreen ? mode->width : SCR_WIDTH, fullscreen ? mode->height : SCR_HEIGHT, GLFW_DONT_CARE);
             glfwSetWindowSize(window, fullscreen ? mode->width : SCR_WIDTH, fullscreen ? mode->height : SCR_HEIGHT);
         }
-        ImGui::SliderFloat("FOV", &fov, 1.0f, 180.0f);
+        ImGui::SliderFloat("FOV", &fov, 1.0f, 150.0f);
         ImGui::End();
 
         // Render dear imgui into screen
@@ -424,8 +424,8 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
     fov -= (float)(yoffset * multiplier * delta_time);
     if (fov < 1.0f)
         fov = 1.0f;
-    if (fov > 180.0f)
-        fov = 180.0f;
+    if (fov > 150.0f)
+        fov = 150.0f;
 }
 
 // glfw: whenever the window size changed (by OS or user resize) this callback function executes
