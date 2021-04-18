@@ -159,6 +159,9 @@ int main()
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
 
+    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
+    glEnableVertexAttribArray(2);
+
     // generate vertex arrays for light cube
     glGenVertexArrays(1, &lightVAO);
     glBindVertexArray(lightVAO);
@@ -170,14 +173,19 @@ int main()
 
     //  ------------------------------------
 
+    ResourceManager::ImportTexture("/resources/textures/container2.png", "container");
+    ResourceManager::ImportTexture("/resources/textures/container2_specular.png", "spec_container");
+
     glEnable(GL_DEPTH_TEST);
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
-    int lightNumber = 3;
+    int lightNumber = 4;
     Light lights[lightNumber];
     lights[0].Create(glm::vec3(0.5, 1, 1), glm::vec3(0.2), glm::vec3(0.5), glm::vec3(0.8));
     lights[1].Create(glm::vec3(1, 0.5, 1), glm::vec3(0.3), glm::vec3(0.4), glm::vec3(0.9));
     lights[2].Create(glm::vec3(1, 1, 0.5), glm::vec3(0.15), glm::vec3(0.55), glm::vec3(0.7));
+    lights[3].Create(glm::vec3(1, 1, 1), glm::vec3(1), glm::vec3(1), glm::vec3(1));
+    lights[3].changePos(glm::vec3(-0.2f, -1.0f, -0.3f));
 
     Material container;
     static float cube_ambient[] = {1, 1, 1};
@@ -185,6 +193,8 @@ int main()
     static float cube_specular[] = {1, 1, 1};
 
     static float bg_color[] = {0, 0, 0, 1};
+
+    
 
     // render loop
     // -----------
@@ -222,33 +232,64 @@ int main()
         glm::mat4 view          = glm::mat4(1.0f);
         glm::mat4 projection    = glm::mat4(1.0f);
         glm::mat4 model         = glm::mat4(1.0f);
-        lights[0].pos = glm::vec3(sin(glfwGetTime()), sin(glfwGetTime()/4), cos(glfwGetTime()));
-        lights[1].pos = glm::vec3(cos(glfwGetTime()), cos(glfwGetTime()/4), sin(glfwGetTime()));
-        lights[2].pos = glm::vec3(sin(glfwGetTime()*2), cos(glfwGetTime()), cos(glfwGetTime()*2));
+        lights[0].changePos(glm::vec3(sin(glfwGetTime()), sin(glfwGetTime()/4), cos(glfwGetTime())));
+        lights[1].changePos(glm::vec3(cos(glfwGetTime()), cos(glfwGetTime()/4), sin(glfwGetTime())));
+        lights[2].changePos(glm::vec3(sin(glfwGetTime()*2), cos(glfwGetTime()), cos(glfwGetTime()*2)));
         
         // draw main cube (with transformations applied and rudimentary lighting added) ------------------------------------------------------------
+
         glUseProgram(ResourceManager::Shader("container"));
         glUniform3f(glGetUniformLocation(ResourceManager::Shader("container"), "viewPos"), cameraPos.x, cameraPos.y, cameraPos.z);
 
-        for (int i = 0; i < lightNumber; i++){
-            unsigned int ambientLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].ambient").c_str());
-            glUniform3f(ambientLocation, lights[i].ambientR(), lights[i].ambientG(), lights[i].ambientB());
-            unsigned int diffuseLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].diffuse").c_str());
-            glUniform3f(diffuseLocation, lights[i].diffuseR(), lights[i].diffuseG(), lights[i].diffuseB());
-            unsigned int specularLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].specular").c_str());
-            glUniform3f(specularLocation, lights[i].specularR(), lights[i].specularG(), lights[i].specularB());
-            unsigned int positionLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].position").c_str());
-            glUniform3f(positionLocation, lights[i].pos.x, lights[i].pos.y, lights[i].pos.z);
+        for (int i = 0; i < 3; i++){
+            if(lights[i].displayLight){
+                unsigned int ambientLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].ambient").c_str());
+                glUniform3f(ambientLocation, lights[i].ambientR(), lights[i].ambientG(), lights[i].ambientB());
+                unsigned int diffuseLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].diffuse").c_str());
+                glUniform3f(diffuseLocation, lights[i].diffuseR(), lights[i].diffuseG(), lights[i].diffuseB());
+                unsigned int specularLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].specular").c_str());
+                glUniform3f(specularLocation, lights[i].specularR(), lights[i].specularG(), lights[i].specularB());
+                unsigned int positionLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].position").c_str());
+                glUniform3f(positionLocation, lights[i].position().x, lights[i].position().y, lights[i].position().z);
+            }
+            else{
+                unsigned int ambientLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].ambient").c_str());
+                glUniform3f(ambientLocation, 0, 0, 0);
+                unsigned int diffuseLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].diffuse").c_str());
+                glUniform3f(diffuseLocation, 0, 0, 0);
+                unsigned int specularLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].specular").c_str());
+                glUniform3f(specularLocation, 0, 0, 0);
+                unsigned int positionLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("light[" + std::to_string(i) +"].position").c_str());
+                glUniform3f(positionLocation, 0, 0, 0);
+            }
         }
-
-        unsigned int ambientLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("material.ambient").c_str());
-        glUniform3f(ambientLocation, container.ambient.r, container.ambient.g, container.ambient.b);
-        unsigned int diffuseLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("material.diffuse").c_str());
-        glUniform3f(diffuseLocation, container.diffuse.r, container.diffuse.g, container.diffuse.b);
-        unsigned int specularLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("material.specular").c_str());
-        glUniform3f(specularLocation, container.specular.r, container.specular.g, container.specular.b);       
-        unsigned int shininessLocation = glGetUniformLocation(ResourceManager::Shader("container"), std::string("material.shininess").c_str());
-        glUniform1f(shininessLocation, 32.0f);
+        {
+            unsigned int diffuseLocation = glGetUniformLocation(ResourceManager::Shader("container"), "material.diffuse");
+            glUniform1i(diffuseLocation, 0);
+            unsigned int specularLocation = glGetUniformLocation(ResourceManager::Shader("container"), "material.specular");
+            glUniform1i(specularLocation, 1);  
+            unsigned int shininessLocation = glGetUniformLocation(ResourceManager::Shader("container"), "material.shininess");
+            glUniform1f(shininessLocation, 32.0f);
+        }
+        if (lights[3].displayLight){
+            unsigned int lightDirection = glGetUniformLocation(ResourceManager::Shader("container"), "d_light.direction");
+            glUniform3f(lightDirection, lights[3].position().x, lights[3].position().y, lights[3].position().z);
+            unsigned int ambientLocation = glGetUniformLocation(ResourceManager::Shader("container"), "d_light.ambient");
+            glUniform3f(ambientLocation, lights[3].ambientR(), lights[3].ambientG(), lights[3].ambientB());
+            unsigned int diffuseLocation = glGetUniformLocation(ResourceManager::Shader("container"), "d_light.diffuse");
+            glUniform3f(diffuseLocation, lights[3].diffuseR(), lights[3].diffuseG(), lights[3].diffuseB());
+            unsigned int specularLocation = glGetUniformLocation(ResourceManager::Shader("container"), "d_light.specular");
+            glUniform3f(specularLocation, lights[3].specularR(), lights[3].specularG(), lights[3].specularB());
+        }
+        else {
+            unsigned int ambientLocation = glGetUniformLocation(ResourceManager::Shader("container"), "d_light.ambient");
+            glUniform3f(ambientLocation, 0, 0, 0);
+            unsigned int diffuseLocation = glGetUniformLocation(ResourceManager::Shader("container"), "d_light.diffuse");
+            glUniform3f(diffuseLocation, 0, 0, 0);
+            unsigned int specularLocation = glGetUniformLocation(ResourceManager::Shader("container"), "d_light.specular");
+            glUniform3f(specularLocation, 0, 0, 0);
+        }
+        
 
         projection = glm::perspective(glm::radians(fov), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
         view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
@@ -262,6 +303,10 @@ int main()
         glUniformMatrix4fv(glGetUniformLocation(ResourceManager::Shader("container"), "view"), 1, GL_FALSE, glm::value_ptr(view));
         glUniformMatrix4fv(glGetUniformLocation(ResourceManager::Shader("container"), "projection"), 1, GL_FALSE, glm::value_ptr(projection));
 
+        glActiveTexture(GL_TEXTURE0);
+        glBindTexture(GL_TEXTURE_2D, ResourceManager::Texture("container"));
+        glActiveTexture(GL_TEXTURE1);
+        glBindTexture(GL_TEXTURE_2D, ResourceManager::Texture("spec_container"));
         glBindVertexArray(VAO);
         glDrawArrays(GL_TRIANGLES, 0, 36);
 
@@ -270,10 +315,10 @@ int main()
         // draw smaller light cube (with scaling and translation applied depending on lightPos) ----------------------------------------------------
         glUseProgram(ResourceManager::Shader("light"));
         
-        for (int i = 0; i < lightNumber; i++){
+        for (int i = 0; i < lightNumber-1; i++){
             if (lights[i].displayLight){
             model = glm::mat4(1.0f);
-            model = glm::translate(model, lights[i].pos);
+            model = glm::translate(model, lights[i].position());
             model = glm::scale(model, glm::vec3(0.2f));
 
             glUniformMatrix4fv(glGetUniformLocation(ResourceManager::Shader("light"), "model"), 1, GL_FALSE, glm::value_ptr(model));
@@ -290,7 +335,7 @@ int main()
         ImGui::SliderFloat3("Cube Rotation", rotation, 0, 360);
         cubeRotation.x = rotation[0]; cubeRotation.y = rotation[1]; cubeRotation.z = rotation[2];
         static float translation[] = {0.0, 0.0, 0.0};
-        ImGui::SliderFloat3("Cube Position", translation, -1.0, 1.0);
+        ImGui::DragFloat3("Cube Position", translation, 0.01f);
         cubePos.x = translation[0]; cubePos.y = translation[1]; cubePos.z = translation[2];
         ImGui::ColorEdit3("Cube Ambience", cube_ambient);
         container.ambient.r = cube_ambient[0]; container.ambient.g = cube_ambient[1]; container.ambient.b = cube_ambient[2];
@@ -302,7 +347,7 @@ int main()
         ImGui::SetWindowSize(ImVec2(325,150));
         ImGui::End();
 
-        for (int i = 1; i < lightNumber+1; i++){
+        for (int i = 1; i < lightNumber; i++){
             ImGui::Begin(std::string("Light " + std::to_string(i) + " Properties").c_str());
             ImGui::ColorEdit3("Light Colour", lights[i-1].color);
             ImGui::ColorEdit3("Light Ambience", lights[i-1].ambientMultiplier);
@@ -316,6 +361,18 @@ int main()
             ImGui::End();
         }
 
+        ImGui::Begin(std::string("Directional Light 4 Properties").c_str());
+        ImGui::DragFloat3("Light Direction", lights[3].pos, 0.01, -1.0f, 1.0f);
+        ImGui::ColorEdit3("Light Colour", lights[3].color);
+        ImGui::ColorEdit3("Light Diffuse", lights[3].diffuseMultiplier);
+        ImGui::ColorEdit3("Light Specular", lights[3].specularMultiplier);
+        if(ImGui::RadioButton("Display", lights[3].displayLight)){
+            lights[3].displayLight = lights[3].displayLight ? false : true;
+        }
+        ImGui::SetWindowPos(ImVec2(0,4 * 150));
+        ImGui::SetWindowSize(ImVec2(350,150));
+        ImGui::End();
+
         ImGui::Begin("Window Properties");
         if(ImGui::RadioButton("Fullscreen", fullscreen)){
             fullscreen = (fullscreen) ? false : true;
@@ -323,7 +380,8 @@ int main()
             glfwSetWindowSize(window, fullscreen ? mode->width : SCR_WIDTH, fullscreen ? mode->height : SCR_HEIGHT);
         }
         ImGui::SliderFloat("FOV", &fov, 1.0f, 150.0f);
-        ImGui::ColorEdit4("BG Color", bg_color);
+        ImGui::ColorPicker3("BG Color", bg_color);
+        ImGui::SetWindowSize(ImVec2(275, 325));
         ImGui::End();
 
         // Render dear imgui into screen
